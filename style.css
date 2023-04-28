@@ -42,7 +42,7 @@ section {
 }
 .home {
   height: 100vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://cdn.glitch.global/0820786c-aed2-4128-a98f-0eb6d0258bdd/butterfly.jpg?v=1667205028725');
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://cdn.glitch.global/90b3f4bc-c6a1-4049-b166-773f3128f578/f57a51ab-a060-45cf-8fda-0f78251c0c12.image.png?v=1682695988896');
   filter: grayscale(95%);
   background-size: cover;
   background-position: center;
@@ -294,11 +294,11 @@ input, textarea {
   margin: 0.5rem 0;
 }
 .col-icon{
-  display: flex;
+  display: row;
 }
 .icon-socials{
-  display: flex;
-  flex-direction: column;
+  display: row;
+  flex-direction: row;
   align-self: center;
 }
 ion-icon{
