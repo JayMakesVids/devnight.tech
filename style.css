@@ -107,6 +107,7 @@ section {
   padding: 2rem 9%;
 }
 .active .nav-link {
+  text-align: center;
   color: var(--light-gray);
 }
 .active .nav-link:hover{
@@ -273,6 +274,7 @@ p {
   line-height: 1.5;
   text-transform: none;
   letter-spacing: 0.1rem;
+  text-align:center
 }
 .col-container {
 display: flex;
@@ -358,8 +360,9 @@ ion-icon{
     transform: translateX(100%);
   }
   .header .nav-link {
+    display: inline-block;
     color: var(--light-gray);
-    margin: 0;
+    margin-left: 0;
     font-size: 2rem;
     margin: 4rem 0;
   }
