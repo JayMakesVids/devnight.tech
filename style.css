@@ -90,6 +90,7 @@ section {
   padding: 0 2rem;
   font-weight: 400;
   opacity: 0;
+  text-align: left
 }
 .nav-link:hover{
   text-transform: uppercase;
@@ -107,7 +108,7 @@ section {
   padding: 2rem 9%;
 }
 .active .nav-link {
-  text-align: center;
+  text-align: left;
   color: var(--light-gray);
 }
 .active .nav-link:hover{
