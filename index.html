@@ -1,6 +1,20 @@
 <!DOCTYPE html>
 <html prefix="og: https://ogp.me/ns#" lang="en">
   <head>
+    <script type="text/javascript">
+      document.addEventListener("contextmenu", evt => evt.preventDefault(), false);
+      </script>
+      <script type="text/javascript">
+        // (B) PREVENT CLIPBOARD COPYING
+document.addEventListener("copy", evt => {
+  // (B1) CHANGE THE COPIED TEXT IF YOU WANT
+  evt.clipboardData.setData("text/plain", "Copying is not allowed on this webpage");
+ 
+  // (B2) PREVENT THE DEFAULT COPY ACTION
+  evt.preventDefault();
+}, false);
+      </script>
+      
    <title>Jay's Portfolio</title>
    <meta property="og:title" content="Jay's Portfolio" />
    <script>
@@ -57,6 +71,7 @@ alert('New updates! \n New live-chat widget on the bottom right corner. \n Incre
         <a class="nav-link" href="#skills">_skills</a>
         <a class="nav-link" href="#contact">_contact</a>
           -->
+          <a>Updates</a>Updates
       </nav>
     </header>
     <section class="home" id="home">
@@ -69,6 +84,7 @@ alert('New updates! \n New live-chat widget on the bottom right corner. \n Incre
         src="https://cdn.glitch.global/c722e7ae-ccf3-4c73-a5c9-12c05c936f2a/313838804_169733709067327_7425025645635944176_n.jpg?v=1670772449851"
         alt="Avatar"
         style="width: 200px"
+        draggable="false"
       />
  
       <h1 class="hero-text">
@@ -97,6 +113,7 @@ alert('New updates! \n New live-chat widget on the bottom right corner. \n Incre
                  </a>
                  <a href="account/signup.html"><h2 style="color:white">Signup</h2></a>
                  <a href="account/login.html"><h2 style="color:white">Login</h2></a>
+                
        
                  <!--Start of Tawk.to Script-->
 <script type="text/javascript">
@@ -149,6 +166,7 @@ Update: Unfortunately we are unable to replace Redop with our chatAI bot on May 
               class="cover"
               src="https://cdn.discordapp.com/attachments/1105885114988232805/1106919689831075840/image.png"
               alt="image"
+              draggable="false"
             />
             <div class="content">
               <span class="par">HTML5/CSS/JS</span>
@@ -168,6 +186,7 @@ Update: Unfortunately we are unable to replace Redop with our chatAI bot on May 
               class="cover"
               src="https://cdn.glitch.global/b453025e-3464-48b5-bee5-e1dd292b8967/jays.png?v=1669477664671"
               alt="image"
+              draggable="false"
             />
             <div class="content">
               <span class="par">HTML5/CSS3/JS</span>
@@ -196,6 +215,7 @@ Update: Unfortunately we are unable to replace Redop with our chatAI bot on May 
               class="myImage"
               src="https://cdn.glitch.global/0820786c-aed2-4128-a98f-0eb6d0258bdd/butterfly%202.png?v=1667205020911"
               alt="butterfly"
+              draggable="false"
             />
           </div>
         </div>
@@ -275,16 +295,19 @@ Hey! I am Jay, a frontend web developer in Reading PA. I do many things in the t
       <h2>
         Cashapp Me!
       </h2>
+      <p style="color:yellow; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">All donates appreciated, even as little as $1!
+        <br> If you do donate, you will be posted on the site for the amount of money you donated to days! For example: $1 = 1 day, $10 = 10 days.
+        <br> Put the name you'd like to be put on the site if you want to be shown.</p>
       <p>
-        $justninjaa
+       CashTag: $justninjaa
       </p>
-            <a href="https://cash.app/$justninjaa"><img src="https://cdn.glitch.global/c722e7ae-ccf3-4c73-a5c9-12c05c936f2a/th.png?v=1673103019710" width="100" height="100">
+            <a href="https://cash.app/$justninjaa"><img draggable="false" src="https://cdn.glitch.global/c722e7ae-ccf3-4c73-a5c9-12c05c936f2a/th.png?v=1673103019710" width="100" height="100">
       </a>
               </section>
     <section class="footer" id="footer">
       <p class="footer-text">
         ©2022 DevNight <br />
-       
+       <br> By signing up or using devnight's services, you agree to the <a href="tos.html" style="color:white">Terms of Service and Rules.</a>
       </p>
     </section>
 
